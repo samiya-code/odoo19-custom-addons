@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_oh_asset_user,oh.asset.user,model_oh_asset,oh_asset_managment.group_asset_user,1,1,1,0
+access_oh_asset_manager,oh.asset.manager,model_oh_asset,oh_asset_managment.group_asset_manager,1,1,1,1
+access_oh_asset_category_user,oh.asset.category.user,model_oh_asset_category,oh_asset_managment.group_asset_user,1,1,1,0
+access_oh_asset_category_manager,oh.asset.category.manager,model_oh_asset_category,oh_asset_managment.group_asset_manager,1,1,1,1
+access_oh_asset_assignment_user,oh.asset.assignment.user,model_oh_asset_assignment,oh_asset_managment.group_asset_user,1,1,1,0
+access_oh_asset_assignment_manager,oh.asset.assignment.manager,model_oh_asset_assignment,oh_asset_managment.group_asset_manager,1,1,1,1

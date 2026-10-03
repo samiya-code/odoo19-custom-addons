@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <menuitem
+        id="menu_oh_asset_management_root"
+        name="Asset Management"
+        sequence="10"
+    />
+
+
+    <menuitem
+        id="menu_oh_asset"
+        name="Assets"
+        parent="menu_oh_asset_management_root"
+        action="action_oh_asset"
+        sequence="10"
+    />
+
+
+    <menuitem
+        id="menu_oh_asset_category"
+        name="Categories"
+        parent="menu_oh_asset_management_root"
+        action="action_oh_asset_category"
+        sequence="20"
+    />
+
+
+    <menuitem
+        id="menu_oh_asset_assignment"
+        name="Assignments"
+        parent="menu_oh_asset_management_root"
+        action="action_oh_asset_assignment"
+        sequence="30"
+    />
+
+</odoo>
